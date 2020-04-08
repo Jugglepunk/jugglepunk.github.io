@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/*Created by Jacob Tillman*/
+body {
+	font-family: "Courier New", Times, sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 0 40px;
+	margin: 0;
+	padding: 0;
+}
+
+/*text styles*/
+p, td, img {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	padding: 0 40px;
+}
+li {
+	letter-spacing: 0.1em;
+	color: #16151D;
+}
+h1 {
+	font-size: 24px;
+	padding: 8px 8px 8px 20px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	background-color: #000000;
+	margin: 0;
+}
+h2 {
+	font-size: 20px;
+	color: #000000;
+	padding: 6px 6px 6px 15px;
+	font-variant: italic;
+	letter-spacing: 0.5em;
+	background-color: #FFFFFF;
+}
+q{
+	color: #16151D;
+}
+
+/*link styles*/
+a:link {
+	font-weight: bold;
+	color: #1C3D32;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #1C3D32;
+	text-decoration: none;
+}
+a:hover {
+	color: #6D8845;
+}
+
+/*list styles*/
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/*table styles*/
+table {
+	border: solid #16151D 1px;
+}
+td {
+	padding: 6px;
+	border: solid #16151D 1px;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	border: solid #16151D 1px;
+	background-color: #1C3D32;
+	
+}
+
+/*border styles*/
+hr {
+	border: solid #1C3D32 1px;
+}
+iframe {
+	border: solid #1C3D32 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+/*div styles*/
+#container { 
+	width: innerWidth; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #000000;
+	/* border-bottom: 1px solid #6D8845; */
+}
+#content { 
+	width: innerWidth;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 270px; 
+	float: left;
+	margin-top: 80px;
+	margin-right: 0px;
+	background: #eee;
+	border: 1px solid #6D8845;
+}
+#sidebar p{
+	padding: 0;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 100%; 
+	background-color: #000000;
+	border-top: 1px solid #FFFFFF;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
+}
+#header img {
+	margin: 0;
+	padding: 0;
+}
