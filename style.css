@@ -9,6 +9,7 @@ body {
 	padding: 0 40px;
 	margin: 0;
 	padding: 0;
+	width: innerWidth;
 }
 
 /*text styles*/
@@ -16,13 +17,16 @@ p, td, img {
 	letter-spacing: 0.1em;
 	color: #FFFFFF;
 	padding: 0 40px;
+	width: innerWidth;
+	word-wrap: normal;
 }
 li {
 	letter-spacing: 0.1em;
 	color: #16151D;
 }
 h1 {
-	font-size: 24px;
+	font-family: "Courier", sans-serif;
+	font-size: 30px;
 	padding: 8px 8px 8px 20px;
 	font-variant: small-caps;
 	letter-spacing: .5em;
@@ -45,16 +49,17 @@ q{
 /*link styles*/
 a:link {
 	font-weight: bold;
-	color: #1C3D32;
+	color: #00ff00;
 	text-decoration: none;
+	vertical-align: text-top;
 }
 a:visited {
 	font-weight: bold;
-	color: #1C3D32;
+	color: #00ff00;
 	text-decoration: none;
 }
 a:hover {
-	color: #6D8845;
+	color: #009900;
 }
 
 /*list styles*/
@@ -99,7 +104,7 @@ iframe {
 #container { 
 	width: innerWidth; 
 	margin: 0 auto; 
-	background-color: #fff; 
+	background-color: #000000; 
 	overflow: hidden; 
 }
 #header { 
@@ -137,4 +142,10 @@ iframe {
 #header img {
 	margin: 0;
 	padding: 0;
+}
+#port {
+	float: left;
+	padding-left: 0;
+	width: 500px;
+	height: 100%;
 }
