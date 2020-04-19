@@ -95,7 +95,7 @@ hr {
 	border: solid #1C3D32 1px;
 }
 iframe {
-	border: solid #1C3D32 1px;
+	border: none;
 	padding: 8px;
 	margin: 8px;
 }
