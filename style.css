@@ -147,5 +147,8 @@ iframe {
 	float: left;
 	padding-left: 0;
 	width: 500px;
-	height: 100%;
+}
+#flot {
+	float: left;
+	padding-left: 0;
 }
