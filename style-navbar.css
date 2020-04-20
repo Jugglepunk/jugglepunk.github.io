@@ -5,7 +5,6 @@
 #navbar{
 	width: innerWidth;
 	height: 45px;
-	overflow: hidden; /* necessary for tab style nav bar to hide bottom of buttons */
 	margin-bottom: 10px; /* pushes page content down */
 }	
 
