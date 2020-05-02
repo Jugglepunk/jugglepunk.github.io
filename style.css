@@ -157,3 +157,15 @@ iframe {
 	height: 50%;
 	max-width: 100%;
 }
+input.a{
+	visibility: hidden;
+}
+button.b{
+	float: right;
+	padding-left: 0;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
