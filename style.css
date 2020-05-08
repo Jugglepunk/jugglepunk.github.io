@@ -64,6 +64,9 @@ a:hover {
 ul li {
 	margin-left: 12px;
 }
+ul{
+	width: 100%;
+}
 ol {
 	margin-left: 60px;
 }
