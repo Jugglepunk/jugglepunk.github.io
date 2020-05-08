@@ -19,7 +19,7 @@ ul#menu li a.button {
 	color: #000000; /* font color */
 	font-size: 1em;
 	text-decoration: none; /* removes the link underline */
-	padding: 7px 25px 3px 25px; 	
+	padding: 7px 25px 3px 25px;
 	border: solid 2px; /* 1-pixel border around buttons. */
 }
 ul#menu li a.button.selected{
