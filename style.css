@@ -9,15 +9,14 @@ body {
 	padding: 0 40px;
 	margin: 0;
 	padding: 0;
-	width: innerWidth;
+	width: auto;
 }
-
 /*text styles*/
 p, td, img {
 	letter-spacing: 0.1em;
 	color: #FFFFFF;
 	padding: 0 40px;
-	width: innerWidth;
+	width: auto;
 	word-wrap: normal;
 }
 li {
@@ -43,7 +42,7 @@ h2 {
 	background-color: #FFFFFF;
 }
 q{
-	color: #16151D;
+	color: #000000;
 }
 
 /*link styles*/
@@ -54,14 +53,13 @@ a:link {
 	vertical-align: text-top;
 }
 a:visited {
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #00ff00;
 	text-decoration: none;
 }
 a:hover {
 	color: #009900;
 }
-
 /*list styles*/
 ul li {
 	margin-left: 12px;
@@ -72,7 +70,6 @@ ol {
 ol li {
 	padding-left: 0px;
 }
-
 /*table styles*/
 table {
 	border: solid #16151D 1px;
@@ -89,17 +86,15 @@ th {
 	background-color: #1C3D32;
 	
 }
-
 /*border styles*/
 hr {
 	border: solid #1C3D32 1px;
 }
 iframe {
 	border: none;
-	padding: 8px;
-	margin: 8px;
+	padding: 0px;
+	margin: 0px;
 }
-
 /*div styles*/
 #container { 
 	width: innerWidth; 
@@ -139,18 +134,17 @@ iframe {
 	margin: 0;
 	padding: 40px;
 }
-#header img {
-	margin: 0;
-	padding: 0;
-}
+/*element styles*/
 #port {
 	float: left;
 	padding-left: 0;
-	width: 500px;
+	/*width: 500px;*/
+	width: 90%;
 }
 #flot {
 	float: left;
 	padding-left: 0;
+	width: 25%;
 }
 #360{
 	width: 50%;
@@ -168,4 +162,18 @@ button.b{
   width: 50%;
   float: left;
   overflow: hidden;
+}
+#title{
+	width: 30%;
+	padding: 10px 0px 0px 40px;
+	margin: 0;
+}
+#apage{
+	width: 90%;
+	padding-bottom: 40px;
+}
+iframe.apage{
+	padding: 0 40px;
+	width: 90%;
+	height: 560px;
 }
