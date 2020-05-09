@@ -149,6 +149,7 @@ iframe {
 	float: left;
 	padding-left: 0;
 	width: 25%;
+	padding-bottom: 10px;
 }
 #360{
 	width: 50%;
@@ -180,4 +181,7 @@ iframe.apage{
 	padding: 0 40px;
 	width: 90%;
 	height: 560px;
+}
+#copy{
+	width: 90%;
 }
