@@ -6,9 +6,9 @@
         /*padding: 20px 75px;*/
         /*font-size: .9em;*/
     }
-    iframe {
+   /* iframe {
         width: 100%;
-    }
+    }*/
     p{
         font-size: 1em;
     }
@@ -33,11 +33,12 @@
     .half_container { /* provides a two column presentation */
         width: 80%;
         float: none;
+        margin-left: auto;
         margin-right: auto;
     }
     #title-page h1 { 
         font-size: 60px;
-}
+    }
     #splash {
         height: 748px;
     }
@@ -45,7 +46,7 @@
 	width: 75%;
 	padding: 10px 0px 0px 40px;
 	margin: 0;
-}
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -60,5 +61,5 @@
 	width: 89%;
 	padding: 10px 0px 0px 40px;
 	margin: 0;
-}
+    }
 }
