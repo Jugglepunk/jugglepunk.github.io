@@ -47,6 +47,9 @@
 	padding: 10px 0px 0px 40px;
 	margin: 0;
     }
+    #flot {
+	width: 90%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -61,5 +64,8 @@
 	width: 89%;
 	padding: 10px 0px 0px 40px;
 	margin: 0;
+    }
+    #flot {
+	width: 90%;
     }
 }
