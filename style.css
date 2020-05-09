@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: auto;
+	overflow-y:scroll;
 }
 /*text styles*/
 p, td, img {
@@ -111,7 +112,7 @@ iframe {
 	/* border-bottom: 1px solid #6D8845; */
 }
 #content { 
-	width: auto;
+	width: 100%;
 	float: left; 
 	padding-bottom: 40px;
 }
