@@ -31,7 +31,7 @@
         width: 100px;
     }
     .half_container { /* provides a two column presentation */
-        width: 80%;
+        width: 90%;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -56,6 +56,12 @@
     ul#menu li a.button {
         padding: 2px 2px 2px 2px;	
         font-size: 0.9em;
+    }
+       .half_container { /* provides a two column presentation */
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
     #splash {
         height: 650px;
